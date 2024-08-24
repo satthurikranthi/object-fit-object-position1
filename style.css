@@ -1,0 +1,38 @@
+img{
+
+    width: 500px;
+    height: 500px;
+    border: 3pxs solid burlywood;
+    background-color: aqua;
+
+}
+
+
+
+#mp1{
+    object-fit: fill;
+
+
+}
+#mp2{
+    object-fit: contain;
+    
+}
+#mp3{
+    object-fit: cover;
+    /*width: 1000px;
+    object-position: 0px-150px; */
+
+
+}
+#mp4{
+    object-fit: none;
+    object-position: -1500px-500px;
+
+
+}
+mp5{
+    object-fit:scale-down;
+
+
+}
